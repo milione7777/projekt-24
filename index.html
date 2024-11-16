@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Ласкаво просимо на сторінку</h1>
+    <h2>Це приклад взаємодії з кнопкою</h2>
+
+    <button id="myButton">Натисніть мене</button>
+
+
+    <h1>Форма</h1>
+    
+    <form id="dataForm">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Зберегти</button>
+    </form>
+
+     <button id="showInfoBtn">Показати додаткову інформацію</button>
+
+    <div id="extraInfo" class="hidden">
+        <p>Це додаткова інформація, яка з'являється при натисканні на кнопку.</p>
+    </div>
+
+    <div id="output"></div>
+
+
+    <div id="message" style="margin-top: 20px; font-size: 18px"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
